@@ -1,0 +1,92 @@
+$primary: green;
+
+$light: yellow;
+$secondary: orange;  
+$success:  rgb(31, 142, 206);
+$warning:   red;    
+$danger:  rgb(255, 0, 204);  
+
+$border-width: 4px;
+$border-style: dotted;
+$border-color: rgb(69, 184, 194);
+
+$custom-color: red;
+
+.custom-bg {
+    background-color: $custom-color;
+}
+
+$display-font-sizes: (
+    1: 5rem,
+    2: 5rem,
+    3: 5rem,
+    4: 5rem,
+    5: 5rem,
+    6: 5rem
+);
+
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 15,
+);
+
+$input-btn-padding-y: 2rem;
+$input-btn-padding-x: 1rem;
+
+$dropdown-min-width: 50rem;
+$dropdown-padding-x: 3rem;
+$dropdown-padding-y: .5rem;
+
+$dropdown-bg: #3982cc;
+$dropdown-border-width: 2px;
+$dropdown-border-color: #b92222;
+$dropdown-border-radius: 1rem;
+
+$dropdown-link-color: #333;
+$dropdown-link-hover-color: #007bff;
+$dropdown-link-hover-bg: #70e5a3;
+
+.border-cus{
+    border: 4px solid  gray !important;
+}
+
+$container-max-widths: (
+  sm: 140px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+$font-size-base:              1rem;
+$h6-font-size:                $font-size-base * 5;
+$h5-font-size:                $font-size-base * 4.5;
+$h4-font-size:                $font-size-base * 3;
+$h3-font-size:                $font-size-base * 2.5;
+$h2-font-size:                $font-size-base * 2;
+$h1-font-size:                $font-size-base;
+
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1200px,
+  xl: 1250px,
+  xxl: 1400px
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
